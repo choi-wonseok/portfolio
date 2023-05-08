@@ -2815,7 +2815,7 @@ input, select, textarea {
 	}
 
 		.main.style1 {
-			background: #fff;
+			background: #ffffff;
 		}
 
 		.main.style2 {
@@ -3105,7 +3105,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 6em 0 ;
+		padding: 1em 0 2em 0;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
@@ -3288,7 +3288,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 4em 0 4em 0 ;
+				padding: 1em 0 2em 0;
 				background-attachment: scroll;
 			}
 
@@ -3325,7 +3325,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 5em 3em 5em 3em ;
+				padding: 1em 0 2em 0;
 			}
 
 		/* One */
@@ -3420,7 +3420,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 3em 1.5em 3em 1.5em ;
+				padding: 1em 0 2em 0;
 			}
 
 	}
@@ -3457,7 +3457,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 2em 1.5em 2em 1.5em ;
+				padding: 1em 0 2em 0;
 			}
 
 				#footer .copyright {
@@ -3502,7 +3502,18 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 2em 1em 2em 1em ;
+				padding: 1em 0 2em 0;
 			}
 
 	}
+
+
+.my_stroy{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 18px;
+}
+
+.pj_detail{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+}
