@@ -8,6 +8,8 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>	
 		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -28,9 +30,9 @@
 			<section id="one" class="main style1">
 				<div class="container">
 					<div class="row gtr-150">
-						<div class="col-6 col-12-medium">
+						<div class="col-6 col-12-medium an1">
 							<header class="major">
-								<h2>Who am <strong>I</strong></h2>
+								<h2 >Who am <strong>I</strong></h2>
 							</header>
 							<div>
 							이름: 최원석 <br>
@@ -46,11 +48,12 @@
 								
 							<ul class="actions special">
 								<li><a href="detail.html" class="button">More about me</a></li>
+								<li><a href="images/files/최원석이력서.docx" class="button" download>Resume</a></li>
 							</ul>
 						</div>
 						
 						<div class="col-6 col-12-medium imp-medium">
-							<span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
+							<span class="mypic"><img src="images/mypic.jpg" alt="" /></span>
 						</div>
 					</div>
 				</div>
@@ -61,22 +64,22 @@
 				<div class="container">
 					<div class="row gtr-150">
 						<header class="major">
-							<h2>Thoes are my skills<br />
+							<h2>These are my skills<br />
 							
 						</header>
 						<ul class="major-icons">
-							<li><span class="icon solid style1 major fa-python"></span></li>
-							<li><span class="icon solid style2 major fa-database"></span></li>
-							<li><span class="icon solid style3 major fa-java"></span></li>
-							<li><span class="icon solid style4 major fa-cog"></span></li>
-							<li><span class="icon solid style4 major fa-desktop"></span></li>
-							<li><span class="icon solid style4 major fa-desktop"></span></li>
-							<li><span class="icon solid style4 major fa-desktop"></span></li>
-							<li><span class="icon solid style4 major fa-desktop"></span></li>
+							<li><img src="images/java.png" style = "width: 8em; height: 8em;"></li>
+							<li><img src="images/nodejs.png" style = "width: 8em; height: 8em;"></li>
+							<li><img src="images/C.png" style = "width: 8em; height: 8em;"></li>
+							<li><img src="images/mysql.jpg" style = "width: 8em; height: 8em;"></li>
+					
+							<li><img src="images/html_css_js.png" style = "width: 8em; height: 8em;"></li>
+							<li><img src="images/mysql.png" style = "width: 8em; height: 8em;"></li>
 						</ul>
+					
 						<!-- <div class="col-6 col-12-medium">
 							<ul class="major-icons">
-								<li><span class="icon solid style1 major fa-python"></span></li>
+								<li><span class="icon solid style1 major fa-pytdhon"></span></li>
 								<li><span class="icon solid style2 major fa-database"></span></li>
 								<li><span class="icon solid style3 major fa-java"></span></li>
 								<li><span class="icon solid style4 major fa-cog"></span></li>
@@ -106,27 +109,101 @@
 					<p>교내 프로젝트</p>
 					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
-							<h3>돈까스</h3>
-							<p class="pj_detail">첫 프로젝트로써 동기들과 첫만남과 이후 소통을 하고싶은 마음으로 아이디어를 얻어 만든 교내 소셜미디어(SNS)</p>
-							<h5>언어: Node.js,Express framework, Mysql</h5>
+							<div class="slideshow-container">
+								<div class="session">
+								   <div class="slideshow">
+									<a href="images/pic/sns/p_login.png" data-lightbox="example-set">
+										<img src="images/pic/sns/p_login.png" alt="" />
+									</a>
+									<a  style="display: none;" href="images/angel/angels/signup.png" data-lightbox="example-set">
+										<img  src="images/angel/angels/signup.png" alt="" />
+									</a>
+									<a style="display: none;" href="images/angel/sns/post.png" data-lightbox="example-set">
+										<img src="images/angel/sns/post.png" alt="" />
+									</a>
+									<a style="display: none;" href="images/angel/sns/profile.png"data-lightbox="example-set">
+										<img src="images/angel/sns/profile.png" alt="" />
+									</a>
+										<!-- <img src="images/angel/sns/post.png" alt="" />
+										<img src="images/angel/sns/profile.png" alt="" />
+									  <a class="prev">&#10094;</a>
+									  <a class="next">&#10095;</a> -->
+								   </div> 
+								</div>
+							</div>
+							<h3><strong>SNS(School addtion)</strong></h3>
+							<p class="pj_detail">첫 프로젝트로 
+								학생들이 학과별 게시판,자유게시판을 통하여 소통을 
+								하고 학교소식 또한 쉽게 들을수 있도록 만든 교내전용 SNS
+
+								 
+							</p>
+							<h5>환경: Node.js,Express framework, Mysql</h5>
 							<ul class="actions special">
 								<li><a href="https://github.com/choi-wonseok/pork_cutlet/tree/main/pork1" target="_blank" rel="noopener noreferrer" class="button" >Github</a></li>
 							</ul>
 						</div>
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
-							<h3>급똥엔젤</h3>
-							<p>두번째 프로젝트로써 공공데이터와 NaverMap을 이용한 최단거리 개방화장실 위치 및 정보, 길안내 서비스 웹앱</p>
-							<h5>환경: MariaDB,Apach,PHP(Laravel),AWS</h5>
+								<div class="slideshow-container">
+									<div class="session">
+									   <div class="slideshow">
+										<a href="images/angel/angel/main.png" data-lightbox="example-set">
+											<img src="images/angel/angel/main.png" alt="" />
+										</a>
+										<a  style="display: none;" href="images/angel/angel/login.png" data-lightbox="example-set">
+											<img  src="images/angel/angel/login.png" alt="" />
+										</a>
+										<a style="display: none;" href="images/angel/angel/sidebar.png" data-lightbox="example-set">
+											<img src="images/angel/angel/sidebar.png" alt="" />
+										</a>
+										<a style="display: none;" href="images/angel/angel/add.png"data-lightbox="example-set">
+											<img src="images/angel/angel/add.png" alt="" />
+										</a>
+										<a style="display: none;" href="images/angel/angel/list.png"data-lightbox="example-set">
+											<img src="images/angel/angel/list.png" alt="" />
+										</a>
+										  <!-- <a class="prev">&#10094;</a> -->
+										  <!-- <a class="next">&#10095;</a> -->
+									   </div>
+									</div>
+                        		</div>
+							<h3><strong>Toilet_Angel(finder)</strong></h3>
+							<p class="pj_detail">두번째 프로젝트로써 공공데이터와 NaverMap을 이용한 최단거리 개방화장실 위치 및 정보, 길안내 서비스 웹앱</p>
+							<h5>환경: MariaDB,Apach,PHP(Laravel),AWS,Android</h5>
 							<ul class="actions special">
 								<li><a href="https://github.com/choi-wonseok/dung/tree/master/dung" target="_blank" rel="noopener noreferrer" class="button">Github</a></li>
 							</ul>
 						</div>
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
+							<div class="slideshow-container">
+								<div class="session">
+								   <div class="slideshow">
+									<a  href="images/pic/spaceship/result.png" data-lightbox="example-set">
+										<img src="images/pic/spaceship/result.png"  alt="" />
+									</a>
+									<a  style="display: none;" href="images/pic/spaceship/name.png" data-lightbox="example-set">
+										<img src="images/pic/spaceship/name.png"  alt="" />
+									</a>
+									<a style="display: none;" href="images/pic/spaceship/from.png" data-lightbox="example-set">
+										<img src="images/pic/spaceship/from.png"  alt="" />
+									</a>
+									<a style="display: none;" href="images/pic/spaceship/age.png" data-lightbox="example-set">
+										<img src="images/pic/spaceship/age.png"  alt="" />
+									</a>
+									<a style="display: none;" href="images/pic/spaceship/arrive.png" data-lightbox="example-set">
+										<img src="images/pic/spaceship/arrive.png"  alt="" />
+									</a>
+									<a style="display: none;" href="images/pic/spaceship/check.png" data-lightbox="example-set">
+										<img src="images/pic/spaceship/check.png"  alt="" />
+									</a>
+
+									  <!-- <a class="prev">&#10094;</a>
+									  <a class="next">&#10095;</a> -->
+								   </div>
+								</div>
+							</div>
 							<h3>Spaceship</h3>
-							<p>인공지능 학습관련 Kaggle에서 제공하는 Spaceship Titanic 데이터를 활용하여 학습결과를 도출하여 웹으로 출력</p>
+							<p class="pj_detail">인공지능 학습관련 Kaggle에서 제공하는 Spaceship Titanic 데이터를 정제하고 그 데이터를 활용하여 학습결과를 도출하여 웹으로 출력</p>
 							<h5>환경: Python,Django,Mysql,Html</h5>
 							<ul class="actions special">
 								<li><a href="https://github.com/zzazan96/spaceship/tree/master/TitanicPj/TitanicApp" target="_blank" rel="noopener noreferrer" class="button">Github</a></li>
@@ -147,18 +224,17 @@
 						<br>
 						번호 : 010-9907-0768<br>
 						이메일 : apples226@hotmail.com</p>
-					<ul class="actions special">
-						<li><a href="#" class="button wide primary">Sign Up</a></li>
-						<li><a href="#" class="button wide">Learn More</a></li>
-					</ul>
 				</div>
 			</section>
 
 		<!-- Footer -->
 			<section id="footer">
 				<ul class="copyright">
-					<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>&copy; Choi Wonseok</li></li>
 				</ul>
+				<div>
+				<button onclick="moveToTop()" class="btn-moveTop"><i class="icon solid fa-arrow-up fa-xl" style="color: #1f3b51;"></i></button>
+				</div>
 			</section>
 
 		<!-- Scripts -->
