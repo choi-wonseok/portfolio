@@ -70,6 +70,12 @@ document.querySelectorAll(".prev").forEach((button) => {
 	});
  });
 
+ let moveToTop = function () {
+	document.body.scrollIntoView({ behavior: "smooth" });
+	// document.body.scrollTop = 0;
+	// document.documentElement.scrollTop = 0;
+};
+
 
  lightbox.option({
     resizeDuration: 200,
@@ -77,6 +83,7 @@ document.querySelectorAll(".prev").forEach((button) => {
     disableScrolling: false,
     fitImagesInViewport:false
 })
+
 
 
 
@@ -98,8 +105,3 @@ $(document).ready(function() {
     });
 });
 
-let moveToTop = function () {
-	document.body.scrollIntoView({ behavior: "smooth" });
-	// document.body.scrollTop = 0;
-	// document.documentElement.scrollTop = 0;
-};
