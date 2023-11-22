@@ -3511,6 +3511,7 @@ input, select, textarea {
 .my_stroy{
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 18px;
+	color:white;
 }
 
 .pj_detail{
@@ -3808,4 +3809,8 @@ input, select, textarea {
   cursor: pointer;
   padding-left: 3px;
   padding-right: 4px;
+}
+
+.myinfo_data{
+	color: black;
 }
